@@ -1,11 +1,24 @@
-<div style="width:100%px;height:100%px;max-width:100%">
-        <div id="game"></div>
-      </div>
-<script type="text/javascript">
-    EJS_player = '#game';
-    EJS_gameUrl = 'Teenage Mutant Ninja Turtles IV - Turtles in Time (USA).sfc'; // Url to Game rom
-    EJS_core = 'snes';
-    EJS_mouse = false; // SNES Mouse
-    EJS_multitap = true; // SNES Multitap
-</script>
-<script src="https://www.emulatorjs.com/loader.js"></script>
+
+<html>
+    <head>
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width:100%;height:100%;max-width:100%">
+            <div id="game"></div>
+        </div>
+        <script>
+            EJS_player = "#game";
+            EJS_core = "snes";
+            EJS_gameName = "Teenage Mutant Ninja Turtles IV - Turtles in Time";
+            EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+            EJS_gameUrl = "Teenage Mutant Ninja Turtles IV - Turtles in Time (USA).sfc";
+        </script>
+        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+    </body>
+</html>
